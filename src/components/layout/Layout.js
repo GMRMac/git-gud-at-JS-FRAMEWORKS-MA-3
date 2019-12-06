@@ -12,11 +12,12 @@ import Container from "react-bootstrap/Container";
 import Home from "../home/Home";
 import About from "../about/About";
 import Contact from "../contact/Contact"
+import "./Layout.css"
 
 export default function Layout() {
     return (
         <Router>
-            <Navbar bg="dark" variant="dark" expand="lg">
+            <Navbar variant="dark" expand="lg">
                 <NavLink to="/" exact>    
                     <Navbar.Brand href="#home">Rick and Morty</Navbar.Brand>
                 </NavLink>
